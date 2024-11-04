@@ -1,6 +1,6 @@
 [package]
 name = "db_config"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Claus Guttesen <kometen@gmail.com>"]
 description = "Define fields for vaults"
 license = "MIT"
