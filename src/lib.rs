@@ -1,5 +1,6 @@
+#[macro_export]
 macro_rules! db_config_from_vault {
-    ($($field:ident),*) => {
+    ([$($field:ident),*]) => {
         use azure_vault_secrets::VaultStorage;
         use anyhow::Result;
         use serde::Serialize;
@@ -56,5 +57,3 @@ macro_rules! db_config_from_vault {
         }
     };
 }
-
-db_config_from_vault!(host, user, name, pwd, domain);
