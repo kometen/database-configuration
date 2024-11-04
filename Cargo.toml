@@ -1,11 +1,11 @@
 [package]
-name = "db-config"
+name = "db_config"
 version = "0.1.0"
 authors = ["Claus Guttesen <kometen@gmail.com>"]
 description = "Define fields for vaults"
 license = "MIT"
 repository = "https://github.com/kometen/database-configuration"
-documentation = ""
+documentation = "https://github.com/kometen/database-configuration"
 readme = "README.md"
 keywords = ["configuration", "database"]
 categories = ["database"]
